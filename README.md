@@ -6,24 +6,24 @@ All of my CircuitPython code is here.
 
 ### Quick Access
 
-- [Overview of all code](https://github.com/clyman88/Engineering-3/tree/master/CircuitPython#overview-of-all-code)
-    - [fade.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/README.md#fadepy)
-    - [fancyLED.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython#fancyLEDpy)
-    - [fancyLED_main.py](https://github.com/clyman88/Engineering-3/tree/master/CircuitPython#fancyled_mainpy)
-    - [fish_class.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython#fish_classpy)
-    - [hello_vs_code](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython#hello_vs_codepy)
-    - [lcd_assignment.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/README.md#lcd_assignmentpy)
-    - [photo_interrupter.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/README.md#photo_interrupterpy)
-    - [pot_rgb_adjusters.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/README.md#pot_rgb_adjusterspy)
-    - [rgb.py](https://github.com/clyman88/Engineering-3/tree/master/CircuitPython#rgbpy)
-    - [rgb_main.py](https://github.com/clyman88/Engineering-3/tree/master/CircuitPython#rgb_mainpy)
-    - [sensor.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/README.md#sensorpy)
-    - [servo_touch.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/README.md#servo_touchpy)
-- [Folders](https://github.com/clyman88/Engineering-3/tree/master/CircuitPython#folders)
-    - [fritzing_models](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/README.md#fritzing_models)
-- [Other Files](https://github.com/clyman88/Engineering-3/tree/master/CircuitPython#other-files)
-    - [agenda.md](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/README.md#agendamd)
-    - [README.md](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/README.md#READMEmd)
+- [Overview of all code](https://github.com/clyman88/CircuitPython#overview-of-all-code)
+    - [fade.py](https://github.com/clyman88/CircuitPython/README.md#fadepy)
+    - [fancyLED.py](https://github.com/clyman88/CircuitPython#fancyLEDpy)
+    - [fancyLED_main.py](https://github.com/clyman88/CircuitPython#fancyled_mainpy)
+    - [fish_class.py](https://github.com/clyman88/CircuitPython#fish_classpy)
+    - [hello_vs_code](https://github.com/clyman88/CircuitPython#hello_vs_codepy)
+    - [lcd_assignment.py](https://github.com/clyman88/CircuitPython#lcd_assignmentpy)
+    - [photo_interrupter.py](https://github.com/clyman88/CircuitPython#photo_interrupterpy)
+    - [pot_rgb_adjusters.py](https://github.com/clyman88/CircuitPython#pot_rgb_adjusterspy)
+    - [rgb.py](https://github.com/clyman88/CircuitPython#rgbpy)
+    - [rgb_main.py](https://github.com/clyman88/CircuitPython#rgb_mainpy)
+    - [sensor.py](https://github.com/clyman88/CircuitPython#sensorpy)
+    - [servo_touch.py](https://github.com/clyman88/CircuitPython#servo_touchpy)
+- [Folders](https://github.com/clyman88/CircuitPython#folders)
+    - [fritzing_models](https://github.com/clyman88/CircuitPython#fritzing_models)
+- [Other Files](https://github.com/clyman88/CircuitPython#other-files)
+    - [agenda.md](https://github.com/clyman88/CircuitPython#agendamd)
+    - [README.md](https://github.com/clyman88/CircuitPython#READMEmd)
 
 ---
 
@@ -42,9 +42,9 @@ Here's a brief rundown of each file:
 
 ---
 
-### [fade.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fade.py)
+### [fade.py](https://github.com/clyman88/CircuitPython/fade.py)
 
-[fade.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fade.py) is a very basic file with the purpose of making an LED fade On and Off.
+[fade.py](https://github.com/clyman88/CircuitPython/fade.py) is a very basic file with the purpose of making an LED fade On and Off.
 That's pretty much it. The code is not too complicated; the only difficult bit was understanding how the PWMOut object operated. After that it's basic Python loops if statements.
 
 #### Takeaways/Things to remember 
@@ -68,13 +68,13 @@ while True:
 
 #### Fritzing model
 
->![fade Fritzing model](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fritzing_models/fade.png?raw=true)
+>![fade Fritzing model](https://github.com/clyman88/CircuitPython/blob/master/fritzing_models/fade.png?raw=true)
 
 ---
 
-### [fancyLED.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fancyLED.py)
+### [fancyLED.py](https://github.com/clyman88/CircuitPython/fancyLED.py)
 
-[fancyLED.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fancyLED.py) is a pretty cool class that will make a group of three LEDs do various things (specifically alternate, blink, chase, and sparkle). The code is relatively complicated, but that's my own doing because for some reason I insisted on doing things the hard way. With complicated code came a lot of troubleshooting and testing, so this assigment took a bit longer than it probably should have. Overall, the code works, and while it's a bit of an eyesore, again, it works.
+[fancyLED.py](https://github.com/clyman88/CircuitPython/fancyLED.py) is a pretty cool class that will make a group of three LEDs do various things (specifically alternate, blink, chase, and sparkle). The code is relatively complicated, but that's my own doing because for some reason I insisted on doing things the hard way. With complicated code came a lot of troubleshooting and testing, so this assigment took a bit longer than it probably should have. Overall, the code works, and while it's a bit of an eyesore, again, it works.
 
 #### Takeaways/Things to remember
 
@@ -108,31 +108,31 @@ while True:
 
 #### Fritzing model:
 
->![FancyLED Fritzing model](https://raw.githubusercontent.com/clyman88/Engineering-3/master/CircuitPython/fritzing_models/FancyLED.png)
+>![FancyLED Fritzing model](https://github.com/clyman88/CircuitPython/blob/master/fritzing_models/fancyLED.png?raw=true)
 
 ---
 
-### [fancyLED_main.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fancyLED_main.py)
+### [fancyLED_main.py](https://github.com/clyman88/CircuitPython/fancyLED_main.py)
 
-[fancyLED_main.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fancyLED_main.py) is the main file associated with running the fancyLED.py file and demonstrates the utilization of the class features detailed in the takeaways section of this [description](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython#fancyLEDpy).
-
----
-
-### [fish_class.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fish_class.py)
-
-[fish_class.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fish_class.py) is a bit of code that, while not actually an assignment was a fun class that I made about fish. The notable bits of the code were figuring out edibility, which altogether took me way to long to both figure out and actually implement into the class.
+[fancyLED_main.py](https://github.com/clyman88/CircuitPython/fancyLED_main.py) is the main file associated with running the fancyLED.py file and demonstrates the utilization of the class features detailed in the takeaways section of this [description](https://github.com/clyman88/CircuitPython#fancyLEDpy).
 
 ---
 
-### [hello_vs_code](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fish_class.py)
+### [fish_class.py](https://github.com/clyman88/CircuitPython/fish_class.py)
 
-[hello_vs_code](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fish_class.py) is a file for the primary purpose of learning how vs code works. That being said, the code looks really sad. 
+[fish_class.py](https://github.com/clyman88/CircuitPython/fish_class.py) is a bit of code that, while not actually an assignment was a fun class that I made about fish. The notable bits of the code were figuring out edibility, which altogether took me way to long to both figure out and actually implement into the class.
 
 ---
 
-### [lcd_assignment.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/lcd_assignment.py)
+### [hello_vs_code](https://github.com/clyman88/CircuitPython/fish_class.py)
 
-[lcd_assignment.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/lcd_assignment.py) is a file with the purpose of displaying a number that would increase by different modifiers when a button was pushed based on the current modifier (also determined by a button). I also included
+[hello_vs_code](https://github.com/clyman88/CircuitPython/fish_class.py) is a file for the primary purpose of learning how vs code works. That being said, the code looks really sad. 
+
+---
+
+### [lcd_assignment.py](https://github.com/clyman88/CircuitPython/lcd_assignment.py)
+
+[lcd_assignment.py](https://github.com/clyman88/CircuitPython/lcd_assignment.py) is a file with the purpose of displaying a number that would increase by different modifiers when a button was pushed based on the current modifier (also determined by a button). I also included
 a reset button that reset the modifier to 1 and number to 0 because that's just how quirky I am. The only part of this assignment that was a pain was the lcd libraries and the apparent lack of memory for
 the poor Metro M0 Express. Updating the libraries and clearing it of uneccesary junk was tedious but was effective in the long run.
 
@@ -175,13 +175,13 @@ while True:
 
 #### Fritzing model:
 
->![lcd_assignment Fritzing model](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fritzing_models/lcd_assignment.png?raw=true)
+>![lcd_assignment Fritzing model](https://github.com/clyman88/CircuitPython/blob/master/fritzing_models/lcd_assignment.png?raw=true)
 
 ---
 
-### [photo_interrupter.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/photo_interrupter.py)
+### [photo_interrupter.py](https://github.com/clyman88/CircuitPython/photo_interrupter.py)
 
-[photo_interrupter.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/photo_interrupter.py) is a file that spits out the number of interrupts
+[photo_interrupter.py](https://github.com/clyman88/CircuitPython/photo_interrupter.py) is a file that spits out the number of interrupts
 a photo_interrupter has experienced every four seconds (without using the time.sleep() function).
 The main difficult part of the assignment was checking only every four seconds without using the aforementioned function, making me use some very messy and unconventional methods of variable comparison that I'm afraid
 has just become my style of code.
@@ -198,11 +198,11 @@ photointerrupter.pull = Pull.UP
 
 #### Fritzing model:
 
->![photo_interrupter Fritzing model](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fritzing_models/photo_interrupter.png?raw=true)
+>![photo_interrupter Fritzing model](https://github.com/clyman88/CircuitPython/blob/master/fritzing_models/photo_interrupter.png?raw=true)
 
 ---
 
-### [pot_rgb_adjusters.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/pot_rgb_adjusters.py)
+### [pot_rgb_adjusters.py](https://github.com/clyman88/CircuitPython/pot_rgb_adjusters.py)
 
 A fun just-for-kicks assignment where you can change the neopixel color with three potentiometers for r, g, and b values.
 
@@ -220,13 +220,13 @@ while True:
 
 #### Fritzing model:
 
->![pot_rgb_adjusters Fritzing model](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fritzing_models/pot.png?raw=true)
+>![pot_rgb_adjusters Fritzing model](https://github.com/clyman88/CircuitPython/blob/master/fritzing_models/pot.png?raw=true)
 
 ---
 
-### [rgb.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/rgb.py)
+### [rgb.py](https://github.com/clyman88/CircuitPython/rgb.py)
 
-[rgb.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/rgb.py) is a file with a custom-made RGB class, which is meant to change the color of RGB LED's depending on the various functions used. The functions' functions include turning the LED red, green, blue, cyan, magenta, and yellow, and making the LED cycle through different colors at two different rates.
+[rgb.py](https://github.com/clyman88/CircuitPython/rgb.py) is a file with a custom-made RGB class, which is meant to change the color of RGB LED's depending on the various functions used. The functions' functions include turning the LED red, green, blue, cyan, magenta, and yellow, and making the LED cycle through different colors at two different rates.
 
 #### Takeaways/Things I learned
 
@@ -238,19 +238,19 @@ This was also the first assignment working with classes, so I also learned how t
 
 #### Fritzing model:
 
->![rgb Fritzing model](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fritzing_models/rgb.png?raw=true)
+>![rgb Fritzing model](https://github.com/clyman88/CircuitPython/blob/master/fritzing_models/rgb.png?raw=true)
 
 ---
 
-### [rgb_main.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/rgb_main.py)
+### [rgb_main.py](https://github.com/clyman88/CircuitPython/rgb_main.py)
 
-[rgb_main.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/rgb_main.py) is the main file associated with running the rgb.py file and demonstrates the utilization of the class features detailed in the takeaways section of this [description](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython#rgbpy).
+[rgb_main.py](https://github.com/clyman88/CircuitPython/rgb_main.py) is the main file associated with running the rgb.py file and demonstrates the utilization of the class features detailed in the takeaways section of this [description](https://github.com/clyman88/CircuitPython#rgbpy).
 
 ---
 
-### [sensor.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/sensor.py)
+### [sensor.py](https://github.com/clyman88/CircuitPython/sensor.py)
 
-[sensor.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/sensor.py) was a super fun assignment (there's no sarcastic font but just use your imagination).
+[sensor.py](https://github.com/clyman88/CircuitPython/sensor.py) was a super fun assignment (there's no sarcastic font but just use your imagination).
 The assignment was to have a sensor read the distance between itself and the closest object, changing the
 neopixel color along a spectrum as the sensor distance gets higher. The sensor wasn't too complicated to code, and looking 
 at the HCSR04 library told me how to use it. The red, green, and blue color spectrum had me scratching my head for a little while, but in the end
@@ -291,13 +291,13 @@ while True:
 
 #### Fritzing model:
 
->![sensor Fritzing model](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fritzing_models/sensor.png?raw=true)
+>![sensor Fritzing model](https://github.com/clyman88/CircuitPython/blob/master/fritzing_models/sensor.png?raw=true)
 
 ---
 
-### [servo_touch.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/servo_touch.py)
+### [servo_touch.py](https://github.com/clyman88/CircuitPython/servo_touch.py)
 
-[servo_touch.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/servo_touch.py) is the code for an assignment where touching
+[servo_touch.py](https://github.com/clyman88/CircuitPython/servo_touch.py) is the code for an assignment where touching
 one wire moves the servo in one direction while touching the other wire moves the servo in the opposing direction. I spiced up the assignment
 a small amount by changing the neopixel color depending on what color the servo was turning. The only strange part about the assignment
 was learning about how TouchIn objects functioned, but it was smooth sailing after that.
@@ -338,7 +338,7 @@ while True:
 
 #### Fritzing model:
 
->![servo_touch Fritzing model](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fritzing_models/servo.png?raw=true)
+>![servo_touch Fritzing model](https://github.com/clyman88/CircuitPython/blob/master/fritzing_models/servo.png?raw=true)
 
 ---
 
@@ -348,9 +348,9 @@ Here is a rundown of the folders in the CircuitPython branch of this repository:
 
 ---
 
-### [fritzing_models](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fritzing_models/)
+### [fritzing_models](https://github.com/clyman88/CircuitPython/fritzing_models/)
 
-[fritzing_models](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fritzing_models/) is the home for all of my lil' Fritzing models you've hopefully been seeing in this document. The folder contains both the Fritzing files and the .png versions.
+[fritzing_models](https://github.com/clyman88/CircuitPython/fritzing_models/) is the home for all of my lil' Fritzing models you've hopefully been seeing in this document. The folder contains both the Fritzing files and the .png versions.
 
 ---
 
@@ -360,16 +360,16 @@ There are just a few other files in the CircuitPython folder. Here is the brief 
 
 ---
 
-### [agenda.md](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/agenda.md)
+### [agenda.md](https://github.com/clyman88/CircuitPython/agenda.md)
 
-The [agenda.md](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/agenda.md) is currently a list of what needs to be done
+The [agenda.md](https://github.com/clyman88/CircuitPython/agenda.md) is currently a list of what needs to be done
 in the CircuitPython folder. Formatting is in progress to be more easy to use and make it more perdy.
 
 ---
 
-### [README.md](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/README.md)
+### [README.md](https://github.com/clyman88/CircuitPython/README.md)
 
-The [README.md](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/README.md) is what you're reading right now. It
+The [README.md](https://github.com/clyman88/CircuitPython/README.md) is what you're reading right now. It
 gives an overview of all the files in this folder and what their purpose is.
 
 ![That's all folks!](https://cdn10.bigcommerce.com/s-btntxk/products/115/images/506/0002002301.2_IMG_1792_3__56379.1444757924.1280.1280.JPG?c=2 "That's all folks!")
