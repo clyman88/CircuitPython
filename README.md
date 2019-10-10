@@ -68,7 +68,7 @@ while True:
 
 #### Fritzing model
 
->![fade Fritzing model](fritzing_models/fade.png)
+>![fade Fritzing model](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fritzing_models/fade.png?raw=true)
 
 ---
 
@@ -175,7 +175,7 @@ while True:
 
 #### Fritzing model:
 
->![lcd_assignment Fritzing model](fritzing_models/lcd_assignment.png)
+>![lcd_assignment Fritzing model](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fritzing_models/lcd_assignment.png?raw=true)
 
 ---
 
@@ -198,7 +198,7 @@ photointerrupter.pull = Pull.UP
 
 #### Fritzing model:
 
->![photo_interrupter Fritzing model](fritzing_models/photo_interrupter.png)
+>![photo_interrupter Fritzing model](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fritzing_models/photo_interrupter.png?raw=true)
 
 ---
 
@@ -220,7 +220,7 @@ while True:
 
 #### Fritzing model:
 
->![pot_rgb_adjusters Fritzing model](fritzing_models/pot.png)
+>![pot_rgb_adjusters Fritzing model](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fritzing_models/pot.png?raw=true)
 
 ---
 
@@ -238,7 +238,7 @@ This was also the first assignment working with classes, so I also learned how t
 
 #### Fritzing model:
 
->![rgb Fritzing model](fritzing_models/rgb.png)
+>![rgb Fritzing model](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fritzing_models/rgb.png?raw=true)
 
 ---
 
@@ -291,7 +291,7 @@ while True:
 
 #### Fritzing model:
 
->![sensor Fritzing model](fritzing_models/sensor.png)
+>![sensor Fritzing model](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fritzing_models/sensor.png?raw=true)
 
 ---
 
@@ -338,7 +338,7 @@ while True:
 
 #### Fritzing model:
 
->![servo_touch Fritzing model](fritzing_models/servo.png)
+>![servo_touch Fritzing model](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fritzing_models/servo.png?raw=true)
 
 ---
 
