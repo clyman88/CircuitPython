@@ -124,9 +124,9 @@ while True:
 
 ---
 
-### [hello_vs_code.py](https://github.com/clyman88/CircuitPython/blob/master/fish_class.py)
+### [hello_vs_code.py](https://github.com/clyman88/CircuitPython/blob/master/hello_vs_code.py)
 
-[hello_vs_code.py](https://github.com/clyman88/CircuitPython/blob/master/fish_class.py) is a file for the primary purpose of learning how vs code works. That being said, the code looks really sad. 
+[hello_vs_code.py](https://github.com/clyman88/CircuitPython/blob/master/hello_vs_code.py) is a file for the primary purpose of learning how vs code works. That being said, the code looks really sad. 
 
 ---
 
