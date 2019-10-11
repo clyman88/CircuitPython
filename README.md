@@ -11,7 +11,7 @@ All of my CircuitPython code is here.
     - [fancyLED.py](https://github.com/clyman88/CircuitPython#fancyLEDpy)
     - [fancyLED_main.py](https://github.com/clyman88/CircuitPython#fancyled_mainpy)
     - [fish_class.py](https://github.com/clyman88/CircuitPython#fish_classpy)
-    - [hello_vs_code](https://github.com/clyman88/CircuitPython#hello_vs_codepy)
+    - [hello_vs_code.py](https://github.com/clyman88/CircuitPython#hello_vs_codepy)
     - [lcd_assignment.py](https://github.com/clyman88/CircuitPython#lcd_assignmentpy)
     - [photo_interrupter.py](https://github.com/clyman88/CircuitPython#photo_interrupterpy)
     - [pot_rgb_adjusters.py](https://github.com/clyman88/CircuitPython#pot_rgb_adjusterspy)
@@ -124,9 +124,9 @@ while True:
 
 ---
 
-### [hello_vs_code](https://github.com/clyman88/CircuitPython/blob/master/fish_class.py)
+### [hello_vs_code.py](https://github.com/clyman88/CircuitPython/blob/master/fish_class.py)
 
-[hello_vs_code](https://github.com/clyman88/CircuitPython/blob/master/fish_class.py) is a file for the primary purpose of learning how vs code works. That being said, the code looks really sad. 
+[hello_vs_code.py](https://github.com/clyman88/CircuitPython/blob/master/fish_class.py) is a file for the primary purpose of learning how vs code works. That being said, the code looks really sad. 
 
 ---
 
