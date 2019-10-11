@@ -348,9 +348,9 @@ Here is a rundown of the folders in the CircuitPython branch of this repository:
 
 ---
 
-### [fritzing_models](https://github.com/clyman88/CircuitPython/fritzing_models/)
+### [fritzing_models](https://github.com/clyman88/CircuitPython/tree/master/fritzing_models)
 
-[fritzing_models](https://github.com/clyman88/CircuitPython/fritzing_models/) is the home for all of my lil' Fritzing models you've hopefully been seeing in this document. The folder contains both the Fritzing files and the .png versions.
+[fritzing_models](https://github.com/clyman88/CircuitPython/tree/master/fritzing_models) is the home for all of my lil' Fritzing models you've hopefully been seeing in this document. The folder contains both the Fritzing files and the .png versions.
 
 ---
 
