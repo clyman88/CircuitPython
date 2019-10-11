@@ -42,9 +42,9 @@ Here's a brief rundown of each file:
 
 ---
 
-### [fade.py](https://github.com/clyman88/CircuitPython/fade.py)
+### [fade.py](https://github.com/clyman88/CircuitPython/blob/master/fade.py)
 
-[fade.py](https://github.com/clyman88/CircuitPython/fade.py) is a very basic file with the purpose of making an LED fade On and Off.
+[fade.py](https://github.com/clyman88/CircuitPython/blob/master/fade.py) is a very basic file with the purpose of making an LED fade On and Off.
 That's pretty much it. The code is not too complicated; the only difficult bit was understanding how the PWMOut object operated. After that it's basic Python loops if statements.
 
 #### Takeaways/Things to remember 
@@ -72,9 +72,9 @@ while True:
 
 ---
 
-### [fancyLED.py](https://github.com/clyman88/CircuitPython/fancyLED.py)
+### [fancyLED.py](https://github.com/clyman88/CircuitPython/blob/master/fancyLED.py)
 
-[fancyLED.py](https://github.com/clyman88/CircuitPython/fancyLED.py) is a pretty cool class that will make a group of three LEDs do various things (specifically alternate, blink, chase, and sparkle). The code is relatively complicated, but that's my own doing because for some reason I insisted on doing things the hard way. With complicated code came a lot of troubleshooting and testing, so this assigment took a bit longer than it probably should have. Overall, the code works, and while it's a bit of an eyesore, again, it works.
+[fancyLED.py](https://github.com/clyman88/CircuitPython/blob/master/fancyLED.py) is a pretty cool class that will make a group of three LEDs do various things (specifically alternate, blink, chase, and sparkle). The code is relatively complicated, but that's my own doing because for some reason I insisted on doing things the hard way. With complicated code came a lot of troubleshooting and testing, so this assigment took a bit longer than it probably should have. Overall, the code works, and while it's a bit of an eyesore, again, it works.
 
 #### Takeaways/Things to remember
 
@@ -112,27 +112,27 @@ while True:
 
 ---
 
-### [fancyLED_main.py](https://github.com/clyman88/CircuitPython/fancyLED_main.py)
+### [fancyLED_main.py](https://github.com/clyman88/blob/master/CircuitPython/fancyLED_main.py)
 
-[fancyLED_main.py](https://github.com/clyman88/CircuitPython/fancyLED_main.py) is the main file associated with running the fancyLED.py file and demonstrates the utilization of the class features detailed in the takeaways section of this [description](https://github.com/clyman88/CircuitPython#fancyLEDpy).
-
----
-
-### [fish_class.py](https://github.com/clyman88/CircuitPython/fish_class.py)
-
-[fish_class.py](https://github.com/clyman88/CircuitPython/fish_class.py) is a bit of code that, while not actually an assignment was a fun class that I made about fish. The notable bits of the code were figuring out edibility, which altogether took me way to long to both figure out and actually implement into the class.
+[fancyLED_main.py](https://github.com/clyman88/CircuitPython/blob/master/fancyLED_main.py) is the main file associated with running the fancyLED.py file and demonstrates the utilization of the class features detailed in the takeaways section of this [description](https://github.com/clyman88/CircuitPython#fancyLEDpy).
 
 ---
 
-### [hello_vs_code](https://github.com/clyman88/CircuitPython/fish_class.py)
+### [fish_class.py](https://github.com/clyman88/CircuitPython/blob/master/fish_class.py)
 
-[hello_vs_code](https://github.com/clyman88/CircuitPython/fish_class.py) is a file for the primary purpose of learning how vs code works. That being said, the code looks really sad. 
+[fish_class.py](https://github.com/clyman88/CircuitPython/blob/master/fish_class.py) is a bit of code that, while not actually an assignment was a fun class that I made about fish. The notable bits of the code were figuring out edibility, which altogether took me way to long to both figure out and actually implement into the class.
 
 ---
 
-### [lcd_assignment.py](https://github.com/clyman88/CircuitPython/lcd_assignment.py)
+### [hello_vs_code](https://github.com/clyman88/CircuitPython/blob/master/fish_class.py)
 
-[lcd_assignment.py](https://github.com/clyman88/CircuitPython/lcd_assignment.py) is a file with the purpose of displaying a number that would increase by different modifiers when a button was pushed based on the current modifier (also determined by a button). I also included
+[hello_vs_code](https://github.com/clyman88/CircuitPython/blob/master/fish_class.py) is a file for the primary purpose of learning how vs code works. That being said, the code looks really sad. 
+
+---
+
+### [lcd_assignment.py](https://github.com/clyman88/CircuitPython/blob/master/lcd_assignment.py)
+
+[lcd_assignment.py](https://github.com/clyman88/CircuitPython/blob/master/lcd_assignment.py) is a file with the purpose of displaying a number that would increase by different modifiers when a button was pushed based on the current modifier (also determined by a button). I also included
 a reset button that reset the modifier to 1 and number to 0 because that's just how quirky I am. The only part of this assignment that was a pain was the lcd libraries and the apparent lack of memory for
 the poor Metro M0 Express. Updating the libraries and clearing it of uneccesary junk was tedious but was effective in the long run.
 
@@ -179,9 +179,9 @@ while True:
 
 ---
 
-### [photo_interrupter.py](https://github.com/clyman88/CircuitPython/photo_interrupter.py)
+### [photo_interrupter.py](https://github.com/clyman88/CircuitPython/blob/master/photo_interrupter.py)
 
-[photo_interrupter.py](https://github.com/clyman88/CircuitPython/photo_interrupter.py) is a file that spits out the number of interrupts
+[photo_interrupter.py](https://github.com/clyman88/CircuitPython/blob/master/photo_interrupter.py) is a file that spits out the number of interrupts
 a photo_interrupter has experienced every four seconds (without using the time.sleep() function).
 The main difficult part of the assignment was checking only every four seconds without using the aforementioned function, making me use some very messy and unconventional methods of variable comparison that I'm afraid
 has just become my style of code.
@@ -202,7 +202,7 @@ photointerrupter.pull = Pull.UP
 
 ---
 
-### [pot_rgb_adjusters.py](https://github.com/clyman88/CircuitPython/pot_rgb_adjusters.py)
+### [pot_rgb_adjusters.py](https://github.com/clyman88/CircuitPython/blob/master/pot_rgb_adjusters.py)
 
 A fun just-for-kicks assignment where you can change the neopixel color with three potentiometers for r, g, and b values.
 
@@ -224,9 +224,9 @@ while True:
 
 ---
 
-### [rgb.py](https://github.com/clyman88/CircuitPython/rgb.py)
+### [rgb.py](https://github.com/clyman88/CircuitPython/blob/master/rgb.py)
 
-[rgb.py](https://github.com/clyman88/CircuitPython/rgb.py) is a file with a custom-made RGB class, which is meant to change the color of RGB LED's depending on the various functions used. The functions' functions include turning the LED red, green, blue, cyan, magenta, and yellow, and making the LED cycle through different colors at two different rates.
+[rgb.py](https://github.com/clyman88/CircuitPython/blob/master/rgb.py) is a file with a custom-made RGB class, which is meant to change the color of RGB LED's depending on the various functions used. The functions' functions include turning the LED red, green, blue, cyan, magenta, and yellow, and making the LED cycle through different colors at two different rates.
 
 #### Takeaways/Things I learned
 
@@ -242,15 +242,15 @@ This was also the first assignment working with classes, so I also learned how t
 
 ---
 
-### [rgb_main.py](https://github.com/clyman88/CircuitPython/rgb_main.py)
+### [rgb_main.py](https://github.com/clyman88/CircuitPython/blob/master/rgb_main.py)
 
-[rgb_main.py](https://github.com/clyman88/CircuitPython/rgb_main.py) is the main file associated with running the rgb.py file and demonstrates the utilization of the class features detailed in the takeaways section of this [description](https://github.com/clyman88/CircuitPython#rgbpy).
+[rgb_main.py](https://github.com/clyman88/CircuitPython/blob/master/rgb_main.py) is the main file associated with running the rgb.py file and demonstrates the utilization of the class features detailed in the takeaways section of this [description](https://github.com/clyman88/CircuitPython#rgbpy).
 
 ---
 
-### [sensor.py](https://github.com/clyman88/CircuitPython/sensor.py)
+### [sensor.py](https://github.com/clyman88/CircuitPython/blob/master/sensor.py)
 
-[sensor.py](https://github.com/clyman88/CircuitPython/sensor.py) was a super fun assignment (there's no sarcastic font but just use your imagination).
+[sensor.py](https://github.com/clyman88/CircuitPython/blob/master/sensor.py) was a super fun assignment (there's no sarcastic font but just use your imagination).
 The assignment was to have a sensor read the distance between itself and the closest object, changing the
 neopixel color along a spectrum as the sensor distance gets higher. The sensor wasn't too complicated to code, and looking 
 at the HCSR04 library told me how to use it. The red, green, and blue color spectrum had me scratching my head for a little while, but in the end
@@ -295,9 +295,9 @@ while True:
 
 ---
 
-### [servo_touch.py](https://github.com/clyman88/CircuitPython/servo_touch.py)
+### [servo_touch.py](https://github.com/clyman88/CircuitPython/blob/master/servo_touch.py)
 
-[servo_touch.py](https://github.com/clyman88/CircuitPython/servo_touch.py) is the code for an assignment where touching
+[servo_touch.py](https://github.com/clyman88/CircuitPython/blob/master/servo_touch.py) is the code for an assignment where touching
 one wire moves the servo in one direction while touching the other wire moves the servo in the opposing direction. I spiced up the assignment
 a small amount by changing the neopixel color depending on what color the servo was turning. The only strange part about the assignment
 was learning about how TouchIn objects functioned, but it was smooth sailing after that.
@@ -360,16 +360,16 @@ There are just a few other files in the CircuitPython folder. Here is the brief 
 
 ---
 
-### [agenda.md](https://github.com/clyman88/CircuitPython/agenda.md)
+### [agenda.md](https://github.com/clyman88/CircuitPython/blob/master/agenda.md)
 
-The [agenda.md](https://github.com/clyman88/CircuitPython/agenda.md) is currently a list of what needs to be done
+The [agenda.md](https://github.com/clyman88/CircuitPython/blob/master/agenda.md) is currently a list of what needs to be done
 in the CircuitPython folder. Formatting is in progress to be more easy to use and make it more perdy.
 
 ---
 
-### [README.md](https://github.com/clyman88/CircuitPython/README.md)
+### [README.md](https://github.com/clyman88/CircuitPython/blob/master/README.md)
 
-The [README.md](https://github.com/clyman88/CircuitPython/README.md) is what you're reading right now. It
+The [README.md](https://github.com/clyman88/CircuitPython/blob/master/README.md) is what you're reading right now. It
 gives an overview of all the files in this folder and what their purpose is.
 
 ![That's all folks!](https://cdn10.bigcommerce.com/s-btntxk/products/115/images/506/0002002301.2_IMG_1792_3__56379.1444757924.1280.1280.JPG?c=2 "That's all folks!")
